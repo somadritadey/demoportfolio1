@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: rgb(229, 188, 56);
+    background-image: url("https://i.pinimg.com/originals/3b/c7/74/3bc77400bdcbaa0a9f9c9876e040f220.jpg");
+    padding: 5px;
+    width: 12%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-inline: 2%;
+    padding-block: 2%;
+    color: rgb(79, 52, 28);
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 2px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 18px;
+    padding-top: 70%;
+    color: black;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(174, 32, 32);
+}
+.main{
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.infocontainer{
+    background-image: url("https://herway.net/wp-content/uploads/2022/03/yellow-orange-aura.jpg.webp");
+    height: 75vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.devinfo{
+    padding: 5%;
+    padding-inline: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hello{
+    font-size: 35px;
+}
+.name{
+    font-size: 60px;
+    color: rgb(101, 44, 4);
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-family: "DM Serif Display", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.institute{
+    font-size: 35px;
+    color: brown;
+    font-family: 'Segoe UI', sans-serif;
+}
+.department{
+    font-size: 35px;
+    color: brown;
+    font-family: 'Segoe UI', sans-serif;
+}
+.moreabout{
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: rgb(124, 79, 8);
+}
+.buttons button{
+    margin: 2px;
+    margin-top: 50px;
+    border-radius: 25px;
+    border-color: rgb(54, 16, 23);
+    border-width: 2px;
+    height: 60px;
+    width: 130px;
+    background-color: rgb(238, 210, 119);
+    font-size: 60%;
+    cursor: pointer;
+}
+.devpic img{
+    height: 449px;
+    width: 449px;
+    border-radius: 50%;
+    justify-content: right;
+}
+.abtme{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    padding-left: 10%;
+    color: rgb(153, 48, 48);
+}
+.abtme b{
+    color: rgb(92, 5, 5);
+    font-weight: bolder;
+}
+.skills{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 540;
+    font-size: larger;
+    color: rgb(4, 50, 73);
+}
+.contactform{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding-top: 120px;
+    padding-left: 220px;
+}
+.contactform h2{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(61, 36, 12);
+}
+.contactform hr{
+    width: 100%;
+    height: 10px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 25px;
+}
+.contactform div{
+    padding: 5px;
+}
+.form-text{
+    font-size: 12px;
+    color: rgb(77, 77, 27);
+}
+.form-control{
+    border-radius: 10px;
+    color: rgb(219, 156, 156);
+    background-color: rgb(195, 55, 55);
+    font-size: 15px;
+}
+.submitbutton{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(196, 51, 51);
+}
+.submitbutton:hover{
+    background-color: white;
+    color: rgb(50, 23, 23);
+}
+@media(max-width: 900px){
+    /*.sidebar{
+        transform: translate(-4000px,0px);
+        position: absolute;
+    }*/
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 25px;
+    left: 25px;
+}
+.hamburger img{
+    border-radius: 4px;
+}
+.ham{
+    margin-left: 1px;
+}
+.cross{
+    margin-left: 120px;
+}
+.sidebargo{
+    transform: translate(-4000px,0px);
+    position: absolute;
+}
